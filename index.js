@@ -1,11 +1,3 @@
-/*
-90 pra cima - A
-entre 80 - 89 - B
-entre 70 - 79 - C
-entre 60 - 69 - D
-menor que 60 - F
-*/
-
 function converterNota(notaAluno) {
   let notaA = notaAluno >= 90 && notaAluno <= 100
   let notaB = notaAluno >= 80 && notaAluno <= 89
@@ -31,11 +23,3 @@ function converterNota(notaAluno) {
 
   return notaFinal
 }
-
-console.log(converterNota(101))
-console.log(converterNota(99))
-console.log(converterNota(88))
-console.log(converterNota(77))
-console.log(converterNota(66))
-console.log(converterNota(55))
-console.log(converterNota(0))
